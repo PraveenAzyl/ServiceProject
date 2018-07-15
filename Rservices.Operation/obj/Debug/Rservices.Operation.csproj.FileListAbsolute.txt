@@ -1,0 +1,8 @@
+D:\RepareServices\Rservices.Operation\obj\Debug\Rservices.Operation.csprojResolveAssemblyReference.cache
+D:\RepareServices\Rservices.Operation\bin\Debug\Rservices.Operation.dll
+D:\RepareServices\Rservices.Operation\bin\Debug\Rservices.Operation.pdb
+D:\RepareServices\Rservices.Operation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\RepareServices\Rservices.Operation\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\RepareServices\Rservices.Operation\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\RepareServices\Rservices.Operation\obj\Debug\Rservices.Operation.dll
+D:\RepareServices\Rservices.Operation\obj\Debug\Rservices.Operation.pdb

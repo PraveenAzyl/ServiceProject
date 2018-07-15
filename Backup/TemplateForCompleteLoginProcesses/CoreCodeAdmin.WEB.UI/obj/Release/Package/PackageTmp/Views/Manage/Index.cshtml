@@ -1,0 +1,79 @@
+﻿@model CoreCodeAdmin.WEB.UI.Models.IndexViewModel
+@{
+
+    
+}
+
+<h2>@ViewBag.Title.</h2>
+
+
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+
+<div class="login-box">
+    <div class="login-logo">
+        <a href="../../index2.html"><b>Core Code</b>Account </a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="card">
+        <div class="card-body login-card-body">
+            <p class="login-box-msg">Choose Your Operation</p>
+            
+                <div class="form-group has-feedback">
+
+                    <div class="col-md-12">
+                        <div class="info-box">
+                            <span class="info-box-icon bg-info"><i class="fa fa-backward"></i></span>
+
+                            <div class="info-box-content">
+
+
+
+            @Html.ActionLink("Go Back", "Index", "Home")                  
+
+
+
+
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+
+                        <div class="info-box">
+                            <span class="info-box-icon bg-info"><i class="fa fa-file-archive-o"></i></span>
+
+                            <div class="info-box-content">
+                                
+
+
+                                    @if (Model.HasPassword)
+            {
+                                        @Html.ActionLink("Change your password", "ChangePassword")
+                                    }
+                                    else
+                                    {
+                                        @Html.ActionLink("Create", "SetPassword")
+                                    }
+
+
+
+
+                              
+                                
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+
+
+
+                </div>
+             
+        </div>
+        <!-- /.login-card-body -->
+    </div>
+</div>
+
+
+
+
